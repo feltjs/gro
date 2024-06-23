@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.119.1",
+  "version": "0.120.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -208,6 +208,10 @@
           "kind": "function"
         },
         {
+          "name": "DEFAULT_SEARCH_EXCLUDER",
+          "kind": "variable"
+        },
+        {
           "name": "DEFAULT_EXPORTS_EXCLUDER",
           "kind": "variable"
         },
@@ -411,83 +415,6 @@
         }
       ]
     },
-    "./gen_module.js": {
-      "path": "gen_module.ts",
-      "declarations": [
-        {
-          "name": "GEN_FILE_PATTERN_TEXT",
-          "kind": "variable"
-        },
-        {
-          "name": "GEN_FILE_PATTERN",
-          "kind": "variable"
-        },
-        {
-          "name": "is_gen_path",
-          "kind": "function"
-        },
-        {
-          "name": "GEN_SCHEMA_FILE_PATTERN_TEXT",
-          "kind": "variable"
-        },
-        {
-          "name": "GEN_SCHEMA_FILE_PATTERN",
-          "kind": "variable"
-        },
-        {
-          "name": "GEN_SCHEMA_PATH_SUFFIX",
-          "kind": "variable"
-        },
-        {
-          "name": "GEN_SCHEMA_IDENTIFIER_SUFFIX",
-          "kind": "variable"
-        },
-        {
-          "name": "Gen_Module_Type",
-          "kind": "type"
-        },
-        {
-          "name": "Gen_Module",
-          "kind": "type"
-        },
-        {
-          "name": "Basic_Gen_Module",
-          "kind": "type"
-        },
-        {
-          "name": "Schema_Gen_Module",
-          "kind": "type"
-        },
-        {
-          "name": "to_gen_module_type",
-          "kind": "function"
-        },
-        {
-          "name": "gen_module_meta",
-          "kind": "variable"
-        },
-        {
-          "name": "validate_gen_module",
-          "kind": "variable"
-        },
-        {
-          "name": "Gen_Module_Meta",
-          "kind": "type"
-        },
-        {
-          "name": "Basic_Gen_Module_Meta",
-          "kind": "type"
-        },
-        {
-          "name": "load_gen_module",
-          "kind": "function"
-        },
-        {
-          "name": "find_gen_modules",
-          "kind": "function"
-        }
-      ]
-    },
     "./gen.task.js": {
       "path": "gen.task.ts",
       "declarations": [
@@ -504,6 +431,18 @@
     "./gen.js": {
       "path": "gen.ts",
       "declarations": [
+        {
+          "name": "GEN_FILE_PATTERN_TEXT",
+          "kind": "variable"
+        },
+        {
+          "name": "GEN_FILE_PATTERN",
+          "kind": "variable"
+        },
+        {
+          "name": "is_gen_path",
+          "kind": "function"
+        },
         {
           "name": "Gen_Result",
           "kind": "type"
@@ -537,15 +476,15 @@
           "kind": "type"
         },
         {
-          "name": "Gen_Module_Result",
+          "name": "Genfile_Module_Result",
           "kind": "type"
         },
         {
-          "name": "Gen_Module_Result_Success",
+          "name": "Genfile_Module_Result_Success",
           "kind": "type"
         },
         {
-          "name": "Gen_Module_Result_Failure",
+          "name": "Genfile_Module_Result_Failure",
           "kind": "type"
         },
         {
@@ -570,6 +509,50 @@
         },
         {
           "name": "write_gen_results",
+          "kind": "function"
+        },
+        {
+          "name": "Found_Genfiles",
+          "kind": "type"
+        },
+        {
+          "name": "Find_Genfiles_Result",
+          "kind": "type"
+        },
+        {
+          "name": "Find_Genfiles_Failure",
+          "kind": "type"
+        },
+        {
+          "name": "find_genfiles",
+          "kind": "function"
+        },
+        {
+          "name": "Genfile_Module",
+          "kind": "type"
+        },
+        {
+          "name": "Genfile_Module_Meta",
+          "kind": "type"
+        },
+        {
+          "name": "Loaded_Genfiles",
+          "kind": "type"
+        },
+        {
+          "name": "Load_Genfiles_Result",
+          "kind": "type"
+        },
+        {
+          "name": "Load_Genfiles_Failure",
+          "kind": "type"
+        },
+        {
+          "name": "load_genfiles",
+          "kind": "function"
+        },
+        {
+          "name": "validate_gen_module",
           "kind": "function"
         }
       ]
@@ -795,19 +778,35 @@
           "kind": "function"
         },
         {
-          "name": "get_possible_source_ids",
+          "name": "Possible_Path",
+          "kind": "type"
+        },
+        {
+          "name": "get_possible_paths",
           "kind": "function"
         },
         {
-          "name": "load_source_path_data_by_input_path",
+          "name": "Resolved_Input_Path",
+          "kind": "type"
+        },
+        {
+          "name": "Resolved_Input_File",
+          "kind": "type"
+        },
+        {
+          "name": "Resolved_Input_Paths",
+          "kind": "type"
+        },
+        {
+          "name": "resolve_input_paths",
           "kind": "function"
         },
         {
-          "name": "load_source_ids_by_input_path",
-          "kind": "function"
+          "name": "Resolved_Input_Files",
+          "kind": "type"
         },
         {
-          "name": "to_gro_input_path",
+          "name": "resolve_input_files",
           "kind": "function"
         }
       ]
@@ -875,20 +874,12 @@
           "kind": "function"
         },
         {
-          "name": "Find_Modules_Result",
-          "kind": "type"
-        },
-        {
-          "name": "Find_Modules_Failure",
+          "name": "Load_Modules_Failure",
           "kind": "type"
         },
         {
           "name": "Load_Modules_Result",
           "kind": "type"
-        },
-        {
-          "name": "find_modules",
-          "kind": "function"
         },
         {
           "name": "load_modules",
@@ -1125,19 +1116,35 @@
           "kind": "function"
         },
         {
-          "name": "get_possible_source_ids",
+          "name": "Possible_Path",
+          "kind": "type"
+        },
+        {
+          "name": "get_possible_paths",
           "kind": "function"
         },
         {
-          "name": "load_source_path_data_by_input_path",
+          "name": "Resolved_Input_Path",
+          "kind": "type"
+        },
+        {
+          "name": "Resolved_Input_File",
+          "kind": "type"
+        },
+        {
+          "name": "Resolved_Input_Paths",
+          "kind": "type"
+        },
+        {
+          "name": "resolve_input_paths",
           "kind": "function"
         },
         {
-          "name": "load_source_ids_by_input_path",
-          "kind": "function"
+          "name": "Resolved_Input_Files",
+          "kind": "type"
         },
         {
-          "name": "to_gro_input_path",
+          "name": "resolve_input_files",
           "kind": "function"
         }
       ]
@@ -1166,15 +1173,11 @@
           "kind": "type"
         },
         {
-          "name": "Source_Id",
-          "kind": "variable"
-        },
-        {
           "name": "create_paths",
           "kind": "function"
         },
         {
-          "name": "paths_from_id",
+          "name": "infer_paths",
           "kind": "function"
         },
         {
@@ -1186,23 +1189,15 @@
           "kind": "function"
         },
         {
-          "name": "source_id_to_base_path",
+          "name": "path_id_to_base_path",
           "kind": "function"
         },
         {
-          "name": "base_path_to_source_id",
-          "kind": "function"
-        },
-        {
-          "name": "import_id_to_lib_path",
+          "name": "base_path_to_path_id",
           "kind": "function"
         },
         {
           "name": "print_path",
-          "kind": "function"
-        },
-        {
-          "name": "print_path_or_gro_path",
           "kind": "function"
         },
         {
@@ -1329,6 +1324,19 @@
         }
       ]
     },
+    "./resolve.task.js": {
+      "path": "resolve.task.ts",
+      "declarations": [
+        {
+          "name": "Args",
+          "kind": "variable"
+        },
+        {
+          "name": "task",
+          "kind": "variable"
+        }
+      ]
+    },
     "./run_gen.js": {
       "path": "run_gen.ts",
       "declarations": [
@@ -1338,10 +1346,6 @@
         },
         {
           "name": "run_gen",
-          "kind": "function"
-        },
-        {
-          "name": "to_gen_import_path",
           "kind": "function"
         }
       ]
@@ -1654,10 +1658,6 @@
           "kind": "function"
         },
         {
-          "name": "log_gro_package_tasks",
-          "kind": "function"
-        },
-        {
           "name": "log_error_reasons",
           "kind": "function"
         },
@@ -1666,10 +1666,6 @@
           "kind": "function"
         }
       ]
-    },
-    "./task_module.js": {
-      "path": "task_module.ts",
-      "declarations": []
     },
     "./task.js": {
       "path": "task.ts",
