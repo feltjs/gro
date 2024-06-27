@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.124.0",
+  "version": "0.125.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -11,6 +11,10 @@
         },
         {
           "name": "Create_Gro_Config",
+          "kind": "type"
+        },
+        {
+          "name": "Raw_Gro_Config",
           "kind": "type"
         },
         {
@@ -114,13 +118,38 @@
         }
       ]
     },
-    "./changeset.task.js": {
-      "path": "changeset.task.ts",
+    "./changeset_helpers.js": {
+      "path": "changeset_helpers.ts",
       "declarations": [
+        {
+          "name": "CHANGESET_RESTRICTED_ACCESS",
+          "kind": "variable"
+        },
+        {
+          "name": "CHANGESET_PUBLIC_ACCESS",
+          "kind": "variable"
+        },
+        {
+          "name": "Changeset_Access",
+          "kind": "variable"
+        },
+        {
+          "name": "CHANGESET_CLI",
+          "kind": "variable"
+        },
+        {
+          "name": "CHANGESET_DIR",
+          "kind": "variable"
+        },
         {
           "name": "Changeset_Bump",
           "kind": "variable"
-        },
+        }
+      ]
+    },
+    "./changeset.task.js": {
+      "path": "changeset.task.ts",
+      "declarations": [
         {
           "name": "Args",
           "kind": "variable"
@@ -170,11 +199,27 @@
       "path": "cli.ts",
       "declarations": [
         {
+          "name": "Cli",
+          "kind": "type"
+        },
+        {
           "name": "find_cli",
           "kind": "function"
         },
         {
           "name": "spawn_cli",
+          "kind": "function"
+        },
+        {
+          "name": "spawn_cli_process",
+          "kind": "function"
+        },
+        {
+          "name": "resolve_cli",
+          "kind": "function"
+        },
+        {
+          "name": "to_cli_name",
           "kind": "function"
         }
       ]
@@ -200,6 +245,10 @@
           "kind": "type"
         },
         {
+          "name": "Raw_Gro_Config",
+          "kind": "type"
+        },
+        {
           "name": "Create_Gro_Config",
           "kind": "type"
         },
@@ -214,6 +263,10 @@
         {
           "name": "DEFAULT_EXPORTS_EXCLUDER",
           "kind": "variable"
+        },
+        {
+          "name": "normalize_config",
+          "kind": "function"
         },
         {
           "name": "Gro_Config_Module",
@@ -730,6 +783,10 @@
     "./gro_plugin_sveltekit_library.js": {
       "path": "gro_plugin_sveltekit_library.ts",
       "declarations": [
+        {
+          "name": "Options",
+          "kind": "type"
+        },
         {
           "name": "gro_plugin_sveltekit_library",
           "kind": "function"
@@ -1473,11 +1530,19 @@
           "kind": "variable"
         },
         {
+          "name": "SVELTE_CHECK_CLI",
+          "kind": "variable"
+        },
+        {
           "name": "SVELTE_PACKAGE_CLI",
           "kind": "variable"
         },
         {
           "name": "SVELTE_PACKAGE_DEP_NAME",
+          "kind": "variable"
+        },
+        {
+          "name": "VITE_CLI",
           "kind": "variable"
         },
         {
