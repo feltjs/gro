@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.125.1",
+  "version": "0.126.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -694,6 +694,10 @@
     "./github.js": {
       "path": "github.ts",
       "declarations": [
+        {
+          "name": "GITHUB_REPO_MATCHER",
+          "kind": "variable"
+        },
         {
           "name": "Github_Pull_Request",
           "kind": "variable"
@@ -1560,6 +1564,10 @@
         {
           "name": "sveltekit_sync_if_obviously_needed",
           "kind": "function"
+        },
+        {
+          "name": "Svelte_Package_Options",
+          "kind": "type"
         }
       ]
     },
