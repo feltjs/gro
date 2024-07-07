@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.129.11",
+  "version": "0.129.12",
   "modules": {
     ".": {
       "path": "index.ts",
