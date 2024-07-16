@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.131.0",
+  "version": "0.132.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -234,51 +234,6 @@
         {
           "name": "task",
           "kind": "variable"
-        }
-      ]
-    },
-    "./config.js": {
-      "path": "config.ts",
-      "declarations": [
-        {
-          "name": "Gro_Config",
-          "kind": "type"
-        },
-        {
-          "name": "Raw_Gro_Config",
-          "kind": "type"
-        },
-        {
-          "name": "Create_Gro_Config",
-          "kind": "type"
-        },
-        {
-          "name": "create_empty_gro_config",
-          "kind": "function"
-        },
-        {
-          "name": "DEFAULT_SEARCH_EXCLUDER",
-          "kind": "variable"
-        },
-        {
-          "name": "DEFAULT_EXPORTS_EXCLUDER",
-          "kind": "variable"
-        },
-        {
-          "name": "normalize_gro_config",
-          "kind": "function"
-        },
-        {
-          "name": "Gro_Config_Module",
-          "kind": "type"
-        },
-        {
-          "name": "load_gro_config",
-          "kind": "function"
-        },
-        {
-          "name": "validate_gro_config_module",
-          "kind": "function"
         }
       ]
     },
@@ -704,6 +659,51 @@
         },
         {
           "name": "github_fetch_commit_prs",
+          "kind": "function"
+        }
+      ]
+    },
+    "./gro_config.js": {
+      "path": "gro_config.ts",
+      "declarations": [
+        {
+          "name": "Gro_Config",
+          "kind": "type"
+        },
+        {
+          "name": "Raw_Gro_Config",
+          "kind": "type"
+        },
+        {
+          "name": "Create_Gro_Config",
+          "kind": "type"
+        },
+        {
+          "name": "create_empty_gro_config",
+          "kind": "function"
+        },
+        {
+          "name": "DEFAULT_SEARCH_EXCLUDER",
+          "kind": "variable"
+        },
+        {
+          "name": "DEFAULT_EXPORTS_EXCLUDER",
+          "kind": "variable"
+        },
+        {
+          "name": "normalize_gro_config",
+          "kind": "function"
+        },
+        {
+          "name": "Gro_Config_Module",
+          "kind": "type"
+        },
+        {
+          "name": "load_gro_config",
+          "kind": "function"
+        },
+        {
+          "name": "validate_gro_config_module",
           "kind": "function"
         }
       ]
