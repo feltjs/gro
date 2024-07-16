@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.130.2",
+  "version": "0.131.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -253,7 +253,7 @@
           "kind": "type"
         },
         {
-          "name": "create_empty_config",
+          "name": "create_empty_gro_config",
           "kind": "function"
         },
         {
@@ -265,7 +265,7 @@
           "kind": "variable"
         },
         {
-          "name": "normalize_config",
+          "name": "normalize_gro_config",
           "kind": "function"
         },
         {
@@ -273,11 +273,11 @@
           "kind": "type"
         },
         {
-          "name": "load_config",
+          "name": "load_gro_config",
           "kind": "function"
         },
         {
-          "name": "validate_config_module",
+          "name": "validate_gro_config_module",
           "kind": "function"
         }
       ]
