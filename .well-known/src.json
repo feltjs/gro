@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.133.0",
+  "version": "0.133.2",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1770,6 +1770,10 @@
         },
         {
           "name": "Task_Error",
+          "kind": "class"
+        },
+        {
+          "name": "Silent_Error",
           "kind": "class"
         },
         {
