@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.133.2",
+  "version": "0.133.3",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -304,7 +304,7 @@
           "kind": "function"
         },
         {
-          "name": "ts_transform_options",
+          "name": "default_ts_transform_options",
           "kind": "variable"
         }
       ]
@@ -1167,6 +1167,18 @@
         {
           "name": "TSCONFIG_FILENAME",
           "kind": "variable"
+        },
+        {
+          "name": "TS_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "JSON_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "EVERYTHING_MATCHER",
+          "kind": "variable"
         }
       ]
     },
@@ -1489,15 +1501,6 @@
         }
       ]
     },
-    "./sveltekit_config_global.js": {
-      "path": "sveltekit_config_global.ts",
-      "declarations": [
-        {
-          "name": "sveltekit_config_global",
-          "kind": "variable"
-        }
-      ]
-    },
     "./sveltekit_config.js": {
       "path": "sveltekit_config.ts",
       "declarations": [
@@ -1512,6 +1515,14 @@
         {
           "name": "init_sveltekit_config",
           "kind": "function"
+        },
+        {
+          "name": "to_default_compile_module_options",
+          "kind": "function"
+        },
+        {
+          "name": "default_sveltekit_config",
+          "kind": "variable"
         }
       ]
     },
@@ -1536,6 +1547,10 @@
         },
         {
           "name": "VITE_CLI",
+          "kind": "variable"
+        },
+        {
+          "name": "SVELTEKIT_ENV_MATCHER",
           "kind": "variable"
         },
         {
