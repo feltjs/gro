@@ -6,26 +6,29 @@
 		<link rel="icon" href="/logo.svg" sizes="any" type="image/svg+xml" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="/_app/immutable/assets/0.BVExJ636.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/0.CrjA1w0A.css" rel="stylesheet">
 		<link href="/_app/immutable/assets/4.CbfjK_jS.css" rel="stylesheet">
-		<link rel="modulepreload" href="/_app/immutable/entry/start.DnzSIi8Q.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/entry.BN1pMmZG.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/start.BYQs215n.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.ChRF4gAb.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/runtime.YS-gNbUI.js">
-		<link rel="modulepreload" href="/_app/immutable/entry/app.CR4nJo4l.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/render.DjT3m6C8.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.Do6ha5dT.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/render.D9h98pKX.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/disclose-version.Co2svW8Z.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/svelte-head.C_5Oszvb.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/svelte-head.Dpb41XxF.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/props.CwKo13Su.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/proxy.CH6FUgu8.js">
-		<link rel="modulepreload" href="/_app/immutable/nodes/0.BNEEw1tr.js">
+		<link rel="modulepreload" href="/_app/immutable/nodes/0.BkWwFruW.js">
 		<link rel="modulepreload" href="/_app/immutable/chunks/snippet.DR7TLxAa.js">
 		<link rel="modulepreload" href="/_app/immutable/nodes/4.CsYAkjQW.js"><!--[--><!--]--><!--[--><!--[!--><!--]--> <!--[--><!---->
 	<meta name="color-scheme" content="light dark" />
+	
 	<script nonce="%sveltekit.nonce%">
 		try {
 			let c = localStorage.getItem('color-scheme');
 			if (c === 'auto' || (c !== 'dark' && c !== 'light')) {
 				c = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+			} else if (c === 'light') {
+			 document.documentElement.classList.add('light');
 			}
 			if (c === 'dark') document.documentElement.classList.add('dark');
 		} catch (_) {}
@@ -39,7 +42,7 @@
 			
 			<script>
 				{
-					__sveltekit_1i7ucs0 = {
+					__sveltekit_o287cq = {
 						base: ""
 					};
 
@@ -48,8 +51,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("/_app/immutable/entry/start.DnzSIi8Q.js"),
-						import("/_app/immutable/entry/app.CR4nJo4l.js")
+						import("/_app/immutable/entry/start.BYQs215n.js"),
+						import("/_app/immutable/entry/app.Do6ha5dT.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 4],
