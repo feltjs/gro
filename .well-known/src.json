@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.133.5",
+  "version": "0.133.6",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1361,14 +1361,6 @@
       "declarations": [
         {
           "name": "resolve_node_specifier",
-          "kind": "function"
-        },
-        {
-          "name": "Parsed_Node_Specifier",
-          "kind": "type"
-        },
-        {
-          "name": "parse_node_specifier",
           "kind": "function"
         }
       ]
