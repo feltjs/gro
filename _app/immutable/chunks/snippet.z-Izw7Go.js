@@ -1,0 +1,1 @@
+import{b as f,E as i,d as o,e as p,h as c,g as d}from"./runtime.DNOfFFHF.js";function E(s,t,...n){var r=s,a,e;f(()=>{a!==(a=t())&&(e&&(p(e),e=null),a&&(e=o(()=>a(r,...n))))},i),c&&(r=d)}export{E as s};

@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.133.7",
+  "version": "0.133.8",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1555,6 +1555,10 @@
         },
         {
           "name": "sveltekit_sync",
+          "kind": "function"
+        },
+        {
+          "name": "sveltekit_sync_if_available",
           "kind": "function"
         },
         {
