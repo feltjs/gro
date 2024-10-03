@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.135.2",
+  "version": "0.135.3",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -383,6 +383,31 @@
         }
       ]
     },
+    "./filer.js": {
+      "path": "filer.ts",
+      "declarations": [
+        {
+          "name": "Source_File",
+          "kind": "type"
+        },
+        {
+          "name": "Cleanup_Watch",
+          "kind": "type"
+        },
+        {
+          "name": "On_Filer_Change",
+          "kind": "type"
+        },
+        {
+          "name": "Options",
+          "kind": "type"
+        },
+        {
+          "name": "Filer",
+          "kind": "class"
+        }
+      ]
+    },
     "./format_directory.js": {
       "path": "format_directory.ts",
       "declarations": [
@@ -729,7 +754,15 @@
           "kind": "type"
         },
         {
-          "name": "plugin",
+          "name": "Options",
+          "kind": "type"
+        },
+        {
+          "name": "gro_plugin_gen",
+          "kind": "function"
+        },
+        {
+          "name": "filter_dependents",
           "kind": "function"
         }
       ]
@@ -1081,6 +1114,23 @@
         }
       ]
     },
+    "./parse_imports.js": {
+      "path": "parse_imports.ts",
+      "declarations": [
+        {
+          "name": "init_lexer",
+          "kind": "function"
+        },
+        {
+          "name": "Import_Specifier",
+          "kind": "type"
+        },
+        {
+          "name": "parse_imports",
+          "kind": "function"
+        }
+      ]
+    },
     "./path_constants.js": {
       "path": "path_constants.ts",
       "declarations": [
@@ -1170,6 +1220,10 @@
         },
         {
           "name": "TS_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "JS_MATCHER",
           "kind": "variable"
         },
         {
@@ -1285,6 +1339,10 @@
         {
           "name": "GRO_DIST_DIR",
           "kind": "variable"
+        },
+        {
+          "name": "default_file_filter",
+          "kind": "function"
         }
       ]
     },
@@ -1568,6 +1626,14 @@
         {
           "name": "Svelte_Package_Options",
           "kind": "type"
+        },
+        {
+          "name": "run_svelte_package",
+          "kind": "function"
+        },
+        {
+          "name": "map_sveltekit_aliases",
+          "kind": "function"
         }
       ]
     },
