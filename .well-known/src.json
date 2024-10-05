@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.138.2",
+  "version": "0.139.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1913,15 +1913,6 @@
         {
           "name": "task",
           "kind": "variable"
-        }
-      ]
-    },
-    "./throttle.js": {
-      "path": "throttle.ts",
-      "declarations": [
-        {
-          "name": "throttle",
-          "kind": "function"
         }
       ]
     },
