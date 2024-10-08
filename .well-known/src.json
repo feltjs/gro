@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.139.0",
+  "version": "0.139.1",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -994,6 +994,19 @@
         }
       ]
     },
+    "./moss_helpers.js": {
+      "path": "moss_helpers.ts",
+      "declarations": [
+        {
+          "name": "MOSS_PACKAGE_DEP_NAME",
+          "kind": "variable"
+        },
+        {
+          "name": "load_moss_plugin",
+          "kind": "function"
+        }
+      ]
+    },
     "./package_json.js": {
       "path": "package_json.ts",
       "declarations": [
@@ -1067,6 +1080,18 @@
         },
         {
           "name": "parse_repo_url",
+          "kind": "function"
+        },
+        {
+          "name": "has_dep",
+          "kind": "function"
+        },
+        {
+          "name": "Package_Json_Dep",
+          "kind": "type"
+        },
+        {
+          "name": "extract_deps",
           "kind": "function"
         }
       ]
