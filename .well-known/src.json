@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.140.7",
+  "version": "0.141.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1364,10 +1364,6 @@
         {
           "name": "GRO_DIST_DIR",
           "kind": "variable"
-        },
-        {
-          "name": "default_file_filter",
-          "kind": "function"
         }
       ]
     },
