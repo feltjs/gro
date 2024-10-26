@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.142.0",
+  "version": "0.143.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -233,6 +233,123 @@
         },
         {
           "name": "task",
+          "kind": "variable"
+        }
+      ]
+    },
+    "./constants.js": {
+      "path": "constants.ts",
+      "declarations": [
+        {
+          "name": "SOURCE_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "GRO_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "GRO_DIST_PREFIX",
+          "kind": "variable"
+        },
+        {
+          "name": "SERVER_DIST_PATH",
+          "kind": "variable"
+        },
+        {
+          "name": "GRO_DEV_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "SOURCE_DIR",
+          "kind": "variable"
+        },
+        {
+          "name": "GRO_DIR",
+          "kind": "variable"
+        },
+        {
+          "name": "GRO_DEV_DIR",
+          "kind": "variable"
+        },
+        {
+          "name": "GRO_CONFIG_PATH",
+          "kind": "variable"
+        },
+        {
+          "name": "README_FILENAME",
+          "kind": "variable"
+        },
+        {
+          "name": "SVELTEKIT_CONFIG_FILENAME",
+          "kind": "variable"
+        },
+        {
+          "name": "VITE_CONFIG_FILENAME",
+          "kind": "variable"
+        },
+        {
+          "name": "NODE_MODULES_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "LOCKFILE_FILENAME",
+          "kind": "variable"
+        },
+        {
+          "name": "SVELTEKIT_DEV_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "SVELTEKIT_BUILD_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "SVELTEKIT_DIST_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "SVELTEKIT_VITE_CACHE_PATH",
+          "kind": "variable"
+        },
+        {
+          "name": "GITHUB_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "GIT_DIRNAME",
+          "kind": "variable"
+        },
+        {
+          "name": "TSCONFIG_FILENAME",
+          "kind": "variable"
+        },
+        {
+          "name": "TS_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "JS_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "JSON_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "EVERYTHING_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "JS_CLI_DEFAULT",
+          "kind": "variable"
+        },
+        {
+          "name": "PM_CLI_DEFAULT",
+          "kind": "variable"
+        },
+        {
+          "name": "PRETTIER_CLI_DEFAULT",
           "kind": "variable"
         }
       ]
@@ -708,11 +825,11 @@
           "kind": "function"
         },
         {
-          "name": "DEFAULT_SEARCH_EXCLUDER",
+          "name": "SEARCH_EXCLUDER_DEFAULT",
           "kind": "variable"
         },
         {
-          "name": "DEFAULT_EXPORTS_EXCLUDER",
+          "name": "EXPORTS_EXCLUDER_DEFAULT",
           "kind": "variable"
         },
         {
@@ -1153,111 +1270,6 @@
         {
           "name": "parse_imports",
           "kind": "function"
-        }
-      ]
-    },
-    "./path_constants.js": {
-      "path": "path_constants.ts",
-      "declarations": [
-        {
-          "name": "SOURCE_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "GRO_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "GRO_DIST_PREFIX",
-          "kind": "variable"
-        },
-        {
-          "name": "SERVER_DIST_PATH",
-          "kind": "variable"
-        },
-        {
-          "name": "GRO_DEV_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "SOURCE_DIR",
-          "kind": "variable"
-        },
-        {
-          "name": "GRO_DIR",
-          "kind": "variable"
-        },
-        {
-          "name": "GRO_DEV_DIR",
-          "kind": "variable"
-        },
-        {
-          "name": "GRO_CONFIG_PATH",
-          "kind": "variable"
-        },
-        {
-          "name": "README_FILENAME",
-          "kind": "variable"
-        },
-        {
-          "name": "SVELTEKIT_CONFIG_FILENAME",
-          "kind": "variable"
-        },
-        {
-          "name": "VITE_CONFIG_FILENAME",
-          "kind": "variable"
-        },
-        {
-          "name": "NODE_MODULES_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "LOCKFILE_FILENAME",
-          "kind": "variable"
-        },
-        {
-          "name": "SVELTEKIT_DEV_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "SVELTEKIT_BUILD_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "SVELTEKIT_DIST_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "SVELTEKIT_VITE_CACHE_PATH",
-          "kind": "variable"
-        },
-        {
-          "name": "GITHUB_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "GIT_DIRNAME",
-          "kind": "variable"
-        },
-        {
-          "name": "TSCONFIG_FILENAME",
-          "kind": "variable"
-        },
-        {
-          "name": "TS_MATCHER",
-          "kind": "variable"
-        },
-        {
-          "name": "JS_MATCHER",
-          "kind": "variable"
-        },
-        {
-          "name": "JSON_MATCHER",
-          "kind": "variable"
-        },
-        {
-          "name": "EVERYTHING_MATCHER",
-          "kind": "variable"
         }
       ]
     },
