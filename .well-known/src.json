@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.143.3",
+  "version": "0.144.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -430,7 +430,7 @@
       "path": "esbuild_plugin_external_worker.ts",
       "declarations": [
         {
-          "name": "Options",
+          "name": "Esbuild_Plugin_External_Worker_Options",
           "kind": "type"
         },
         {
@@ -443,7 +443,7 @@
       "path": "esbuild_plugin_svelte.ts",
       "declarations": [
         {
-          "name": "Options",
+          "name": "Esbuild_Plugin_Svelte_Options",
           "kind": "type"
         },
         {
@@ -465,7 +465,7 @@
       "path": "esbuild_plugin_sveltekit_shim_alias.ts",
       "declarations": [
         {
-          "name": "Options",
+          "name": "Esbuild_Plugin_Sveltekit_Shim_Alias_Options",
           "kind": "type"
         },
         {
@@ -478,7 +478,7 @@
       "path": "esbuild_plugin_sveltekit_shim_app.ts",
       "declarations": [
         {
-          "name": "Options",
+          "name": "Esbuild_Plugin_Sveltekit_Shim_App_Options",
           "kind": "type"
         },
         {
@@ -491,7 +491,7 @@
       "path": "esbuild_plugin_sveltekit_shim_env.ts",
       "declarations": [
         {
-          "name": "Options",
+          "name": "Esbuild_Plugin_Sveltekit_Shim_Env_Options",
           "kind": "type"
         },
         {
@@ -516,7 +516,7 @@
           "kind": "type"
         },
         {
-          "name": "Options",
+          "name": "Filer_Options",
           "kind": "type"
         },
         {
@@ -871,7 +871,7 @@
           "kind": "type"
         },
         {
-          "name": "Options",
+          "name": "Gro_Plugin_Gen_Options",
           "kind": "type"
         },
         {
@@ -880,6 +880,27 @@
         },
         {
           "name": "filter_dependents",
+          "kind": "function"
+        }
+      ]
+    },
+    "./gro_plugin_moss.js": {
+      "path": "gro_plugin_moss.ts",
+      "declarations": [
+        {
+          "name": "generate_classes_css",
+          "kind": "function"
+        },
+        {
+          "name": "Task_Args",
+          "kind": "type"
+        },
+        {
+          "name": "Options",
+          "kind": "type"
+        },
+        {
+          "name": "gro_plugin_moss",
           "kind": "function"
         }
       ]
@@ -896,7 +917,7 @@
           "kind": "function"
         },
         {
-          "name": "Options",
+          "name": "Gro_Plugin_Server_Options",
           "kind": "type"
         },
         {
@@ -917,7 +938,7 @@
       "path": "gro_plugin_sveltekit_app.ts",
       "declarations": [
         {
-          "name": "Options",
+          "name": "Gro_Plugin_Sveltekit_App_Options",
           "kind": "type"
         },
         {
@@ -938,7 +959,7 @@
       "path": "gro_plugin_sveltekit_library.ts",
       "declarations": [
         {
-          "name": "Options",
+          "name": "Gro_Plugin_Sveltekit_Library_Options",
           "kind": "type"
         },
         {
@@ -1149,6 +1170,10 @@
         },
         {
           "name": "Package_Json_Funding",
+          "kind": "variable"
+        },
+        {
+          "name": "Export_Value",
           "kind": "variable"
         },
         {
@@ -1995,7 +2020,7 @@
           "kind": "type"
         },
         {
-          "name": "Options",
+          "name": "Watch_Dir_Options",
           "kind": "type"
         },
         {
