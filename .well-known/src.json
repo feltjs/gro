@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.144.0",
+  "version": "0.144.1",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -887,6 +887,14 @@
     "./gro_plugin_moss.js": {
       "path": "gro_plugin_moss.ts",
       "declarations": [
+        {
+          "name": "MOSS_PACKAGE_DEP_NAME",
+          "kind": "variable"
+        },
+        {
+          "name": "has_moss_dep",
+          "kind": "function"
+        },
         {
           "name": "generate_classes_css",
           "kind": "function"
