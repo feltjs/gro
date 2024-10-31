@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.146.0",
+  "version": "0.146.1",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1267,10 +1267,6 @@
     "./parse_imports.js": {
       "path": "parse_imports.ts",
       "declarations": [
-        {
-          "name": "init_lexer",
-          "kind": "function"
-        },
         {
           "name": "Import_Specifier",
           "kind": "type"
