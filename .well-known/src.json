@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.144.1",
+  "version": "0.145.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1136,19 +1136,6 @@
         },
         {
           "name": "load_modules",
-          "kind": "function"
-        }
-      ]
-    },
-    "./moss_helpers.js": {
-      "path": "moss_helpers.ts",
-      "declarations": [
-        {
-          "name": "MOSS_PACKAGE_DEP_NAME",
-          "kind": "variable"
-        },
-        {
-          "name": "load_moss_plugin",
           "kind": "function"
         }
       ]
