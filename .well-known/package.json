@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.146.2",
+  "version": "0.147.0",
   "description": "task runner and toolkit extending SvelteKit",
   "motto": "generate, run, optimize",
   "glyph": "🌰",
@@ -353,10 +353,6 @@
     "./release.task.js": {
       "types": "./dist/release.task.d.ts",
       "default": "./dist/release.task.js"
-    },
-    "./resolve_node_specifier.js": {
-      "types": "./dist/resolve_node_specifier.d.ts",
-      "default": "./dist/resolve_node_specifier.js"
     },
     "./resolve_specifier.js": {
       "types": "./dist/resolve_specifier.d.ts",

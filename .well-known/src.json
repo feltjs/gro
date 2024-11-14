@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.146.2",
+  "version": "0.147.0",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1448,15 +1448,6 @@
         {
           "name": "task",
           "kind": "variable"
-        }
-      ]
-    },
-    "./resolve_node_specifier.js": {
-      "path": "resolve_node_specifier.ts",
-      "declarations": [
-        {
-          "name": "resolve_node_specifier",
-          "kind": "function"
         }
       ]
     },
