@@ -1,6 +1,6 @@
 {
   "name": "@ryanatkn/gro",
-  "version": "0.147.0",
+  "version": "0.147.1",
   "modules": {
     ".": {
       "path": "index.ts",
@@ -1629,6 +1629,10 @@
         },
         {
           "name": "SVELTEKIT_ENV_MATCHER",
+          "kind": "variable"
+        },
+        {
+          "name": "SVELTEKIT_GLOBAL_SPECIFIER",
           "kind": "variable"
         },
         {
